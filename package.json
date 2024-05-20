@@ -5,6 +5,7 @@
   "dependencies": {
     "@marko/express": "^1.0.0",
     "compression": "^1.7.4",
+    "dayjs": "^1.11.11",
     "express": "^4.17.1",
     "marko": "^5.17.2",
     "raptor-pubsub": "^1.0.5"

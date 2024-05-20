@@ -1,0 +1,28 @@
+.table-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.table-item .table-item-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 18px;
+  border: 2px #6ebce4 solid;
+  margin-right: 10px;
+}
+
+.table-item .table-item-content {
+  flex: 1;
+}
+
+.table-item .table-item-content .table-item-content-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.table-item .table-item-content .table-item-content-discribe {
+  font-size: 13px;
+  color: #969393;
+}

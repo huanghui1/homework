@@ -1,0 +1,27 @@
+<div class="main">
+  <div class="top">
+    Please input a date from future (such as: 2024-5-30 14:00:00): <input onKeydown("handleKeydown") />
+    <p>Time down: ${state.time}</p>
+  </div>
+  <div class="content">
+    <div class="left">
+      <div class="table">
+        <div class="table-header">
+          <h3 class="table-header-title">
+            Allstate Extended Vehicle Care
+          </h3>
+          <p class="table-header-subTitle">
+            For as little as $19/mo, we`ll pay for repairs after your manufacture`s expires.
+          </p>
+        </div>
+        <div class="table-body">
+          <for|item, index| of=state.list>
+            <table-item title=(item.title) subTitle=(item.subtitle)></table-item>
+          </for>
+          
+        </div>
+      </div>
+    </div>
+    <div class="right"></div>
+  </div>
+</div>
