@@ -21,4 +21,4 @@ npm start
 
 ## Screenshot
 
-![Screenshot](./src/assets/screenshot.png)
+![Screenshot](./src/assets/screenshot1.png)
